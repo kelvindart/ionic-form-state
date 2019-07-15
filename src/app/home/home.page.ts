@@ -16,8 +16,8 @@ export class HomePage implements OnInit {
 
   ngOnInit() {
     this.formGroup = this.fb.group({
-      inputUnrequired: [''],
-      inputRequired: ['', Validators.required]
+      inputUnrequired: ['Unrequired'],
+      inputRequired: ['Required', Validators.required]
     });
   }
 }
